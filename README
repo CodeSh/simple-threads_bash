@@ -1,0 +1,4 @@
+gcc threads.c -o threads -lpthread
+
+bash:
+	threads 'sleep 1; echo "first message"' 'sleep 2; echo "second message"' 'sleep 1; echo "first xx"' 'sleep 2; echo "second xx"'

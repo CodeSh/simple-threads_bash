@@ -1,1 +1,0 @@
-# simple-threads_bash
